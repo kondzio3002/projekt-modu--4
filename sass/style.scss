@@ -20,7 +20,7 @@ body {
     color: $color-two;
 }    
 section {
-    padding: 175px 0;
+    padding: 120px 0;
 }    
 .section-title {
     font-size: 40px;
@@ -148,6 +148,7 @@ a {
 
 /* Services */
 .services {
+    padding-top: 175px;
     .services-row {
         padding-top: 80px;
     }
@@ -171,6 +172,41 @@ a {
     }
 }
 
+/* Gallery */
+.gallery {
+    background: $color-five;
+}
+.gallery-row {
+    padding-top: 80px;
+}
+.gallery-image {
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.gallery-description {
+    display: block;
+    background: $color-one;
+    flex: 1 1 auto;
+    padding: 10px 0;
+    h3 {
+        margin: 0 auto;
+        font-family: $font-two;
+        text-align: center;
+    }
+    p {
+        margin: 0 auto;
+        text-align: center;
+        font-family: $font-three;
+        color: $color-four;
+        font-style: italic;
+    }
+}
+.gallery-col {
+    padding-bottom: 60px;
+}
 
 
 /* Media */
